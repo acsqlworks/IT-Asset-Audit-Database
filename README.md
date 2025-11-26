@@ -244,9 +244,10 @@ EXEC sp_execute_external_script
 ```
 it-asset-audit-database/
 ├── README.md
-├── Asset Audit Script.sql          # Main database creation (37 KB)
-├── DataQualityIssues.sql           # Issue tracking queries (1 KB)
-├── R Data Quality Check Script.sql # R Services analytics (17 KB)
+├── Scripts/
+│   ├── Asset Audit Script.sql          # Main database creation (37 KB)
+│   ├── R Data Quality Check Script.sql # R Services analytics (17 KB)
+│   └── DataQualityIssues.sql           # Issue tracking queries (1 KB)
 ├── Reports/
 │   ├── DataQualityIssues.xlsx     # Excel dashboard (280 KB)
 │   ├── Report Of Anomalies.xlsx   # Summary report (1 KB)
